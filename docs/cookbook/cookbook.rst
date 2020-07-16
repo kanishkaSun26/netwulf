@@ -101,7 +101,7 @@ Save as PDF
     
     network, config = nw.visualize(G, plot_in_cell_below=False)
     
-    fig, ax = nw.draw_netwulf(network, figsize=(10,10))
+    fig, ax = nw.draw_netwulf(network, figsize=(10))
     plt.savefig("myfigure.pdf")
 
 
